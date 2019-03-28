@@ -89,3 +89,47 @@ If you take a look at the generated **ngsw.json** you can see the list of all co
         ...
 ```
 
+So I tried to change the path of all files width a prefix like this:
+```json
+{
+  "configVersion": 1,
+  "timestamp": 1553614482418,
+  "index": "/my-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/my-app/1.36b351bd0025f09f23d6.js",
+        "/my-app/100.b1c8ab1b7bcb722829a1.js",
+        "/my-app/101.7210a47f980744c3dca2.js",
+        "/my-app/102.c2f64df0b98e06e472c8.js",
+        "/my-app/103.e772c3123d5abbab5bcc.js",
+        "/my-app/104.210508d1abbe6584ce9f.js",
+        "/my-app/105.2de8b215f62585f32a1a.js",
+        "/my-app/106.44ff43688f324d103fb1.js",
+        "/my-app/107.978badac0bd0290e13eb.js",
+        "/my-app/108.462ea6dc538e5e9a2020.js",
+        "/my-app/109.6e35607054f90da1b7ff.js",
+        "/my-app/110.6a2546407771f06277fc.js",
+        "/my-app/111.79eebf930b4b260a5a29.js",
+        "/my-app/112.2b3f670581ddfd1573ba.js",
+        "/my-app/113.32c7a4b7e5a2c998714b.js",
+        "/my-app/114.10359bdaafe9f4f8ed40.js",
+        "/my-app/115.5e3719cf5d51b949044c.js",
+        "/my-app/116.ca8cd5d75a8d0dfe06f9.js",
+        "/my-app/117.faeb2ef6a6a3c1d638fc.js",
+        "/my-app/118.aa59a38020ab8fcac988.js",
+        "/my-app/119.55f6cc2f88eb18d3eccb.js",
+        "/my-app/120.f6280360b20742fc1517.js",
+        "/my-app/121.774d81135a9e51360891.js",
+        "/my-app/122.8c3e839cd3b12912a09c.js",
+        "/my-app/123.749ce9a30ac9000e7258.js",
+        ...
+```
+
+With that change I was able to run my app as a PWA in the sub folder /my-app/.  
+However, this does'n seem to be the correct way to do it.  
+If you know the correct way, please take moment to write it down on my stackoverflow as an answer to my question:  
+
