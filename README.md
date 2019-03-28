@@ -131,5 +131,6 @@ So I tried to change the path of all files width a prefix like this:
 
 With that change I was able to run my app as a PWA in the sub folder /my-app/.  
 However, this does'n seem to be the correct way to do it.  
-If you know the correct way, please take moment to write it down on my stackoverflow as an answer to my question:  
+If you know the correct way, please take moment to write it down on my stackoverflow as an answer to my question:    
+https://stackoverflow.com/questions/55405231/ionic-4-how-to-configure-a-pwa-to-run-on-a-subfolder
 
